@@ -28,9 +28,10 @@ public class MainFrame extends Frame{
                 System.exit(0);
             }
         });
+        this.setLayout(null);
         btnAdd.setBounds(150,100,50,20);
-        btnExit.setBounds(btnexX,btnexY,50,20);
-        lab.setBounds(labX,labY,10,10);
+        btnExit.setBounds(250,100,50,20);
+        lab.setBounds(labX,labY,50,50);
         lab.setBackground(c);
         this.add(btnAdd);
         this.add(btnExit);
