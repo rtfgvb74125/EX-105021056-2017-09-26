@@ -51,13 +51,13 @@ public class MainFrame extends Frame{
                 System.exit(0);
             }
         });
-        tl = new Timer(10, new ActionListener() {
+        tl = new Timer(100, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if(labX<500 & bol){
                     labX += 5;
                     b+=2;
-                    if(labX==500){
+                    if(labX==450){
                         bol = false;
                     }
                     lab.setLocation(labX, labY);
